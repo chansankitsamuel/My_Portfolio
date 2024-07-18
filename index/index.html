@@ -1,0 +1,1008 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Samuel - My Personal Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- to prevent error 404 of favicon.ico -->
+      <link rel="shortcut icon" href="#">
+      <!-- Template Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <!-- Template CSS Files -->
+      <link rel="stylesheet" href="css/devicon.min.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- CSS Skin File -->
+      <!-- <link rel="stylesheet" href="css/skins/yellow.css"> -->
+      <!-- Live Style Switcher - demo only -->
+      <!-- <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css">
+      <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css">
+      <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css"> -->
+      <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css">
+      <!-- <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css">
+      <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css">
+      <link rel="alternate stylesheet" type="text/css" title="pink" href="css/skins/pink.css">
+      <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css">
+      <link rel="alternate stylesheet" type="text/css" title="turquoise" href="css/skins/turquoise.css"> -->
+      <link rel="stylesheet" type="text/css" href="css/styleswitcher.css">
+      <!-- to prevent Firefox FOUC, this must be here -->
+      <script>
+         let FF_FOUC_FIX;
+      </script>
+   </head>
+   <body>
+      <!-- Live Style Switcher Starts - demo only -->
+      <div id="switcher" class="">
+         <div class="content-switcher">
+            <h4>COLOR SWITCHER</h4>
+            <ul>
+               <!-- <li>
+                  <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="assets/styleswitcher/yellow.png" alt="yellow"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="assets/styleswitcher/green.png" alt="green"></a>
+               </li> -->
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="assets/styleswitcher/red.png" alt="red"></a>
+               </li>
+               <!-- <li>
+                  <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="assets/styleswitcher/blue.png" alt="blue"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="assets/styleswitcher/orange.png" alt="orange"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="assets/styleswitcher/yellowgreen.png" alt="yellowgreen"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('pink');" title="pink" class="color"><img src="assets/styleswitcher/pink.png" alt="pink"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="assets/styleswitcher/goldenrod.png" alt="goldenrod"></a>
+               </li> -->
+            </ul>
+            <div id="hideSwitcher">&times;</div>
+         </div>
+      </div>
+      <!-- 3sec changed
+      <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog"></i></div>
+      3sec changed -->
+      <!-- Live Style Switcher Ends - demo only -->
+      <!-- PRELOADER STARTS -->
+      <div id="preloader">
+         <div class="line"></div>
+      </div>
+      <!-- PRELOADER ENDS -->
+      <!-- WRAPPER STARTS -->
+      <div class="page-content">
+         <!-- HEADER STARTS -->
+         <header>
+            <!-- Desktop Menu Starts -->
+            <div class="header-inner hide-mobile">
+               <!-- MENU STARTS -->
+               <div class="menu">
+                  <nav>
+                     <ul>
+                        <li><span class="active" id="home-link">Home</span></li>
+                        <li><span id="about-link">About</span></li>
+                        <li><span id="portfolio-link">Portfolio</span></li>
+                        <li><span id="contact-link">Contact</span></li>
+                        <li><span id="blog-link">Blog</span></li>
+                     </ul>
+                  </nav>
+               </div>
+               <!-- MENU ENDS -->
+               <!-- FREELANCE STARTS -->
+               <div class="mail">
+                  <p>
+                     Email : 
+                     <span>chansankitsamuel@gmail.com</span>
+                     <br/>
+                     Phone / Whatsapp :
+                     <span>852+ 5239 4660</span>
+                  </p>
+               </div>
+               <!-- FREELANCE ENDS -->
+            </div>
+            <!-- Desktop Menu Ends -->
+            <!-- Mobile Menu Starts -->
+            <nav class="mobile-menu">
+               <div id="menuToggle">
+                  <input type="checkbox" id="checkboxmenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul class="list-unstyled" id="menu">
+                     <li><a href="#home"><span>Home</span></a></li>
+                     <li><a href="#my-photo"><span>About</span></a></li>
+                     <li><a href="#portfolio"><span>Portfolio</span></a></li>
+                     <li><a href="#contact"><span>Contact</span></a></li>
+                     <li><a href="#blog"><span>Blog</span></a></li>
+                  </ul>
+               </div>
+            </nav>
+            <!-- Mobile Menu Ends -->
+         </header>
+         <!-- HEADER ENDS -->
+         <div id="wrapper">
+            <main class="flex-column-mobile">
+               <!-- HOME SECTION STARTS -->
+               <section class="home image" id="home">
+                  <div>
+                     <div class="position-relative">
+                        <h1>
+                           <span>
+                              <span class="animated-layer">
+                                 Hello<span>.</span>
+                              </span>
+                           </span>
+                           <span class="position-relative">
+                              <span class="animated-layer">
+                              I am
+                              </span>
+                              <span class="intro animated-layer">
+                                 An undergraduate student studying in CUHK ヽ(*ﾟ∀ﾟ*)ﾉ
+                              </span>
+                           </span>
+                           <span>
+                              <span class="animated-layer">
+                              Samuel
+                              </span>
+                           </span>
+                        </h1>
+                     </div>
+                  </div>
+                  <!-- CALL TO ACTION STARTS -->
+                  <span class="animated-layer animated-btn cta" id="cta">
+                     <span>
+                     </span>
+                  </span>
+                  <!-- CALL TO ACTION ENDS -->
+               </section>
+               <!-- HOME SECTION ENDS -->
+               <!-- ABOUT SECTION STARTS -->
+               <section class="about main-section flex-column-mobile" id="about">
+                  <!-- INFO HOLDER STARTS -->
+                  <div class="info flex-column-mobile">
+                     <!-- IMAGE STARTS -->
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <img class="my-photo" src="assets/myself.jpg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <!-- IMAGE ENDS -->
+                     <!-- INFO STARTS -->
+                     <div>
+                        <h2>
+                           <span>
+                           <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                           Samuel
+                           </span>
+                           </span>
+                           <span>
+                           <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                           Chan San Kit
+                           </span>
+                           </span>
+                        </h2>
+                        <div class="infos">
+                           <ul>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Age :</span>
+                                 <span>17 Years</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Nationality :</span>
+                                 <span>Chinese</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <!-- <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Freelance :</span>
+                                 <span>Available</span>
+                                 </span>
+                                 </span>
+                              </li> -->
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Langages :</span>
+                                 <span>Chinese, English</span>
+                                 </span>
+                                 </span>
+                              </li>
+                           </ul>
+                           <ul>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Address :</span>
+                                 <span>Hong Kong</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Phone :</span>
+                                 <span>852+ 5239 4660</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Email :</span>
+                                 <span>chansankitsamuel@gmail.com</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <!-- <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Skype :</span>
+                                 <span>steven.walker</span>
+                                 </span>
+                                 </span>
+                              </li> -->
+                           </ul>
+                        </div>
+                     </div>
+                     <!-- INFO ENDS -->
+                  </div>
+                  <!-- INFO HOLDER ENDS -->
+                  <!-- SKILLS STARTS -->
+                  <div class="skills flex-column-mobile">
+                     <!-- TITLE STARTS -->
+                     <div class="custom-title">
+                        <!-- MAIN TITLE STARTS -->
+                        <h3>
+                           <span>
+                           <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                           My Skills
+                           </span>
+                           </span>
+                        </h3>
+                        <!-- MAIN TITLE ENDS -->
+                     </div>
+                     <!-- TITLE ENDS -->
+                     <div class="skills-content">
+                        <div>
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-down-animation fadeInLeft wow">
+                              <span>
+                              <i class="devicon-python-plain"></i>
+                              </span>
+                              <h4>
+                                 Python
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-up-animation fadeInRight wow">
+                              <span>
+                              <i class="devicon-html5-plain"></i>
+                              </span>
+                              <h4>
+                                 HTML
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                        </div>
+                        <div>
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-down-animation fadeInLeft wow">
+                              <span>
+                              <i class="devicon-php-plain"></i>
+                              </span>
+                              <h4>
+                                 PHP
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-up-animation fadeInRight wow">
+                              <span>
+                              <i class="devicon-css3-plain"></i>
+                              </span>
+                              <h4>
+                                 CSS
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                        </div>
+                        <div>
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-up-animation fadeInRight wow">
+                              <span>
+                              <i class="devicon-mysql-plain"></i>
+                              </span>
+                              <h4>
+                                 MySQL
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-down-animation fadeInLeft wow">
+                              <span>
+                              <i class="devicon-javascript-plain"></i>
+                              </span>
+                              <h4>
+                                 JavaScript
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                        </div>
+                        <div>
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-down-animation fadeInLeft wow">
+                              <span>
+                              <i class="devicon--plain"></i>
+                              </span>
+                              <h4>
+                                 ...learning..
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-up-animation fadeInRight wow">
+                              <span>
+                              <i class="devicon--plain"></i>
+                              </span>
+                              <h4>
+                                 ...learning..
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- SKILLS ENDS -->
+                  <!-- RESUME STARTS -->
+                  <div class="resume flex-column-mobile">
+                     <!-- TITLE STARTS -->
+                     <div class="custom-title fadeInUp wow">
+                        <!-- MAIN TITLE STARTS -->
+                        <h3>
+                           <span>
+                           <span class="animated-layer fade-in-left-animation">
+                           My Resume
+                           </span>
+                           </span>
+                        </h3>
+                        <!-- MAIN TITLE ENDS -->
+                     </div>
+                     <!-- TITLE ENDS -->
+                     <!-- TIMELINE STARTS -->
+                     <div class="timeline">
+                        <ol class="animated-layer fade-in-animation">
+                           <!-- TIMELINE ITEM STARTS -->
+                           <li>
+                              <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                                 <div class="education">
+                                    <h4>
+                                       Primary & Secondary Education
+                                    </h4>
+                                    <p>
+                                       <i class="fa-regular fa-clock"></i>
+                                       <span>2013 - 2024</span>
+                                    </p>
+                                    <p>
+                                       <i class="fa fa-school"></i> 
+                                       <span>Logos Academy</span>
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                           <!-- TIMELINE ITEM ENDS -->
+                           <!-- TIMELINE ITEM STARTS -->
+                           <li>
+                              <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <div class="education">
+                                    <h4>
+                                       Undergraduate Education
+                                    </h4>
+                                    <p>
+                                       <i class="fa-regular fa-clock"></i>
+                                       <span>2024 - NOW</span>
+                                    </p>
+                                    <p>
+                                       <i class="fa fa-university"></i> 
+                                       <span>CUHK</span>
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                           <!-- TIMELINE ITEM ENDS -->
+                           <!-- TIMELINE ITEM STARTS -->
+                           <li>
+                              <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                                 <div class="education">
+                                    <h4>
+                                       ...to be continued..
+                                    </h4>
+                                    <p>
+                                       <i class="fa-regular fa-clock"></i>
+                                       <span>2028 - XXXX</span>
+                                    </p>
+                                    <p>
+                                       <i class="fa fa-graduation-cap"></i> 
+                                       <span>(*´∀`)~♥</span>
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                           <!-- TIMELINE ITEM ENDS -->
+                           <!-- TIMELINE ITEM STARTS -->
+                           <li>
+                              <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <div class="experience">
+                                    <h4>
+                                       ...to be continued..
+                                    </h4>
+                                    <p>
+                                       <i class="fa-regular fa-clock"></i>
+                                       <span>XXXX - XXXX</span>
+                                    </p>
+                                    <p>
+                                       <i class="fa fa-window-close"></i>
+                                       <span>(*´∀`)~♥</span>
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                           <!-- TIMELINE ITEM ENDS -->
+                           <!-- TIMELINE ITEM STARTS -->
+                           <li>
+                              <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                                 <div class="explore">
+                                    <h4>
+                                       ...to be continued..
+                                    </h4>
+                                    <p>
+                                       <i class="fa-regular fa-clock"></i>
+                                       <span>XXXX - XXXX</span>
+                                    </p>
+                                    <p>
+                                       <i class="fa fa-bed"></i>
+                                       <span>(*´∀`)~♥</span>
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                           <!-- TIMELINE ITEM ENDS -->
+                           <li></li>
+                        </ol>
+                     </div>
+                     <!-- TIMELINE ENDS -->
+                  </div>
+                  <!-- RESUME ENDS -->
+                  <img alt="" class="separator hide-mobile" src="assets/separator.png">
+               </section>
+               <!-- ABOUT SECTION ENDS -->
+               <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <!-- FACTS SECTION STARTS -->
+               <section class="facts">
+                  <div class="flex-column-mobile">
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>0</h3>
+                              <p>years of<span>experience</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInRight wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>2</h3>
+                              <p>completed<span>projects</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>1</h3>
+                              <p >Happy<span>Clients</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInRight wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>0</h3>
+                              <p>awards<span>won</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>1</h3>
+                              <p>learned<span>frameworks</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                  </div>
+                  <img alt="" class="z-1 hide-mobile opposite-separator" src="assets/separator-opposite.png">
+                  
+               </section>
+               <!-- FACTS SECTION ENDS -->
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+               <!-- PORTFOLIO SECTION STARTS -->
+               <section class="portfolio main-section flex-column-mobile" id="portfolio">
+                  <!-- TITLE STARTS -->
+                  <div class="custom-title">
+                     <!-- MAIN TITLE STARTS -->
+                     <h3>
+                        <span>
+                        <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                        My Portfolio
+                        </span>
+                        </span>
+                     </h3>
+                     <!-- MAIN TITLE ENDS -->
+                  </div>
+                  <!-- TITLE ENDS -->
+                  <div class="swiper swiper-portfolio animated-layer fade-in-right-animation fadeInUp wow" data-wow-offset="200">
+                     <div class="swiper-wrapper">
+                        <!-- PORTFOLIO ITEM STARTS -->
+                        <div class="single-item swiper-slide">
+                           <!-- ITEM MAIN CONTENT STARTS -->
+                           <div class="main-content">
+                              <img class="img-fluid" src="assets/portfolio/project-1.jpg" alt="1st Project">
+                           </div>
+                           <!-- ITEM MAIN CONTENT ENDS -->
+                           <!-- ITEM DETAILS STARTS -->
+                           <div class="details">
+                              <h4>DQN vs A3C</h4>
+                              <div>
+                                 <ul>
+                                    <li>
+                                       <span>
+                                       <i class="fa-regular fa-file-lines"></i> Project :
+                                       </span>
+                                       <span>Comparative Essay</span>
+                                    </li>
+                                    <li>
+                                       <span><i class="fa-regular fa-user"></i> Year :</span>
+                                       <span>May 2023 (during IB)</span>
+                                    </li>
+                                    <li>
+                                       <span><i class="fa-regular fa-hourglass"></i> Duration :</span>
+                                       <span>4 months</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <a href="https://github.com/chansankitsamuel/IB_CS_EE" target="_blank" class="custom-btn">
+                              <span>Github <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                              </a>
+                           </div>
+                           <!-- ITEM DETAILS ENDS -->
+                        </div>
+                        <!-- PORTFOLIO ITEM ENDS -->
+                        <!-- PORTFOLIO ITEM STARTS -->
+                        <div class="single-item swiper-slide">
+                           <!-- ITEM MAIN CONTENT STARTS -->
+                           <div class="main-content">
+                              <img class="img-fluid" src="assets/portfolio/project-2.jpg" alt="2nd Project">
+                           </div>
+                           <!-- ITEM MAIN CONTENT ENDS -->
+                           <!-- ITEM DETAILS STARTS -->
+                           <div class="details">
+                              <h4>Homework<br/>  Management <br/> System</h4>
+                              <div>
+                                 <ul>
+                                    <li>
+                                       <span>
+                                       <i class="fa-regular fa-file-lines"></i> Project :
+                                       </span>
+                                       <span>App Development</span>
+                                    </li>
+                                    <li>
+                                       <span><i class="fa-regular fa-user"></i> Year :</span>
+                                       <span>January 2023 (during IB)</span>
+                                    </li>
+                                    <li>
+                                       <span><i class="fa-regular fa-hourglass"></i> Duration :</span>
+                                       <span>13 months</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <a href="https://github.com/chansankitsamuel/IB_CS_IA" target="_blank" class="custom-btn">
+                              <span>Github <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                              </a>
+                           </div>
+                           <!-- ITEM DETAILS ENDS -->
+                        </div>
+                        <!-- PORTFOLIO ITEM ENDS -->
+                     </div>
+                     <div class="nav-item next-item animated-btn"><span></span></div>
+                     <div class="nav-item prev-item animated-btn"><span></span></div>
+                  </div>
+                  <img alt="" class="separator hide-mobile" src="assets/separator.png">
+               </section>
+               <!-- PORTFOLIO SECTION ENDS -->
+               <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <!-- TESTIMONIALS SECTION STARTS -->
+               <section class="testimonials">
+                  <div class="testimonials-container flex-column-mobile">
+                     <!-- TESTIMONIAL ITEM STARTS -->
+                     <div class="quote-container animated-layer fade-in-right-animation fadeInUp wow">
+                        <div>
+                           <p>
+                              <span class="quote">
+                                 <br>
+                                 （坐等一位貴人）
+                              </span>
+                              <span class="person">貴人01</span>
+                              <span class="job">X機構</span>
+                           </p>
+                           <img src="assets/testimonials/testimonial-default.jpg" alt="">
+                        </div>
+                     </div>
+                     <!-- TESTIMONIAL ITEM ENDS -->
+                     <!-- TESTIMONIAL ITEM STARTS -->
+                     <div class="quote-container animated-layer fade-in-right-animation fadeInUp wow">
+                        <div>
+                           <p>
+                              <span class="quote">
+                                 <br>
+                                 （坐等另一位貴人）
+                              </span>
+                              <span class="person">貴人02</span>
+                              <span class="job">Y機構</span>
+                           </p>
+                           <img src="assets/testimonials/testimonial-default.jpg" alt="">
+                        </div>
+                     </div>
+                     <!-- TESTIMONIAL ITEM ENDS -->
+                  </div>
+                  <img alt="" class="z-1 hide-mobile opposite-separator" src="assets/separator-opposite.png">
+               </section>
+               <!-- TESTIMONIALS SECTION ENDS -->
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+               <!-- CONTACT SECTION STARTS -->
+               <section class="contact main-section flex-column-mobile" id="contact">
+                  <!-- TITLE STARTS -->
+                  <div class="custom-title">
+                     <!-- MAIN TITLE STARTS -->
+                     <h3>
+                        <span>
+                        <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                        Get in touch
+                        </span>
+                        </span>
+                     </h3>
+                     <!-- MAIN TITLE ENDS -->
+                  </div>
+                  <!-- TITLE ENDS -->
+                  <!-- CONTACTS STARTS -->
+                  <div class="boxes">
+                     <div>
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                           <i class="fa fa-phone"></i>
+                           <p> 
+                              <span class="small-text">phone</span>
+                              852+ 5239 4660
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                        <!-- CONTACT ITEM STARTS -->
+                        
+                        <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                           <i class="fa fa-location-dot"></i>
+                           <p> 
+                              <span class="small-text">address</span>
+                              New Territories, Hong Kong
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                     </div>
+                     <div>
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                           <i class="fa fa-envelope"></i>
+                           <p> 
+                              <span class="small-text">email</span>
+                              chansankitsamuel@gmail.com
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                           <i class="fa fa-share-nodes"></i>
+                           <span class="small-text">follow me</span>
+                           <ul class="social">
+                              <li>
+                                 <a href="https://github.com/chansankitsamuel">
+                                 <i class="fa-brands fa-github"></i>
+                                 </a>
+                              </li>
+                              <!-- <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-twitter"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-dribbble"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-facebook"></i>
+                                 </a>
+                              </li> -->
+                           </ul>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                     </div>
+                  </div>
+                  <!-- CONTACTS ENDS -->
+                  <img alt="" class="separator hide-mobile" src="assets/separator.png">
+               </section>
+               <!-- CONTACT SECTION ENDS -->
+               <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <!-- CLIENTS SECTION STARTS -->
+               <!-- <section class="clients">
+                  <div class="clients-container animated-layer fade-in-right-animation fadeInUp wow">
+                     <h3>
+                        My Clients
+                     </h3>
+                     <div class="swiper swiper-clients fadeInUp wow">
+                        <div class="swiper-wrapper"> -->
+                           <!-- SWIPER ITEM STARTS -->
+                           <!-- <div class="swiper-slide">
+                              <div>
+                                 client
+                              </div>
+                              <div>
+                                 client's logo
+                              </div>
+                           </div> -->
+                           <!-- SWIPER ITEM ENDS -->
+                           <!-- SWIPER ITEM STARTS -->
+                           <!-- <div class="swiper-slide">
+                              <div>
+                                 client
+                              </div>
+                              <div>
+                                 client's logo
+                              </div>
+                           </div> -->
+                           <!-- SWIPER ITEM ENDS -->
+                            <!-- SWIPER ITEM STARTS -->
+                           <!-- <div class="swiper-slide">
+                              <div>
+                                 client
+                              </div>
+                              <div>
+                                 client's logo
+                              </div>
+                           </div> -->
+                           <!-- SWIPER ITEM ENDS -->
+                            <!-- SWIPER ITEM STARTS -->
+                           <!-- <div class="swiper-slide">
+                              <div>
+                                 client
+                              </div>
+                              <div>
+                                 client's logo
+                              </div>
+                           </div> -->
+                           <!-- SWIPER ITEM ENDS -->
+                            <!-- SWIPER ITEM STARTS -->
+                           <!-- <div class="swiper-slide">
+                              <div>
+                                 client
+                              </div>
+                              <div>
+                                 client's logo
+                              </div>
+                           </div> -->
+                           <!-- SWIPER ITEM ENDS -->
+                        <!-- </div>
+                        <div class="swiper-pagination"></div>
+                     </div>
+                  </div>
+                  <img alt="" class="z-1 hide-mobile opposite-separator" src="assets/separator-opposite.png">
+               </section> -->
+               <!-- CLIENTS SECTION ENDS -->
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+               <!-- BLOG SECTION STARTS -->
+               <section class="blog main-section flex-column-mobile" id="blog">
+                  <!-- TITLE STARTS -->
+                  <div class="custom-title">
+                     <!-- MAIN TITLE STARTS -->
+                     <h3>
+                        <span>
+                        <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                        Latest Posts
+                        </span>
+                        </span>
+                     </h3>
+                     <!-- MAIN TITLE ENDS -->
+                  </div>
+                  <!-- TITLE ENDS -->
+                  <!-- LATEST POSTS STARTS -->
+                  <div class="latestposts flex-column-mobile">
+                     <!-- POST ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInUp wow">
+                        <a href="#">
+                           <span class="img-holder">
+                           <img src="assets/blogs/blog-default.jpg" alt="">
+                           </span>
+                           <div class="content">
+                              <span class="category">IB</span>
+                              <span class="title">
+                                 無題
+                              </span>
+                              <p>
+                                 未開放......
+                              </p>
+                              <div class="meta d-flex align-items-center">
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>1 Jan 2025</span>
+                                 </div>
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>0 comment</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <!-- POST ITEM ENDS -->
+                     <!-- POST ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInUp wow">
+                        <a href="#">
+                           <span class="img-holder">
+                           <img src="assets/blogs/blog-default.jpg" alt="">
+                           </span>
+                           <div class="content">
+                              <span class="category">IB</span>
+                              <span class="title">
+                                 無題
+                              </span>
+                              <p>
+                                 未開放......
+                              </p>
+                              <div class="meta d-flex align-items-center">
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>1 Jan 2025</span>
+                                 </div>
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>0 comment</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <!-- POST ITEM ENDS -->
+                     <!-- POST ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInUp wow">
+                        <a href="#">
+                           <span class="img-holder">
+                           <img src="assets/blogs/blog-default.jpg" alt="">
+                           </span>
+                           <div class="content">
+                              <span class="category">IB</span>
+                              <span class="title">
+                                 無題
+                              </span>
+                              <p>
+                                 未開放......
+                              </p>
+                              <div class="meta d-flex align-items-center">
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span>1 Jan 2025</span>
+                                 </div>
+                                 <div class="d-flex align-items-center">
+                                    <i class="fa-regular fa-comments"></i>
+                                    <span>0 comment</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <!-- POST ITEM ENDS -->
+                      <div style="width: 500px;">
+                        <button class="viewmore-button">
+                           <a href="#">
+                              View More
+                           </a>
+                        </button>
+                      </div>
+                  </div>
+                  <!-- LATEST POSTS ENDS -->
+                  
+               </section>
+               <!-- BLOG SECTION ENDS -->
+               <img alt="" class="hide-desktop z-1" src="assets/separator-copyright-mobile.png">
+               <!-- COPYRIGHT SECTION STARTS -->
+               <section class="copyright">
+                  <img alt="" class="z-1 hide-mobile" src="assets/separator-copyright.png">
+                  <div>
+                     <span>&#169; 2023 Steven Walker</span>
+                     <span>Designed By <a target="_blank" href="https://themeforest.net/user/celtano/portfolio">Celtano</a></span>
+                     <ul>
+                        <li>
+                           <a href="#">
+                           <i class="fa-brands fa-github"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa-brands fa-twitter"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa-brands fa-dribbble"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa-brands fa-facebook"></i>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  
+               </section>
+               <!-- COPYRIGHT SECTION ENDS -->
+            </main>
+         </div>
+         <!-- SCROLL BAR STARTS -->
+         <div class="scroll-progress hide-mobile">
+            <div>
+               <div></div>
+            </div>
+         </div>
+         <!-- SCROLL BAR ENDS -->
+      </div>
+      <!-- WRAPPER ENDS -->
+      <script src="js/jquery-3.6.3.min.js"></script>
+      <script src="js/jquery.mCustomScrollbar.min.js"></script>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/imagesloaded.pkgd.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/custom.js"></script>
+
+      <!-- Style Switcher - Demo Only -->
+      <script src="js/styleswitcher.js"></script>
+   <style>a[href*="//lkstrck2.com/"],a[href^="https://ads.cdn.live/"],a[href^="https://www.onlineusershielder.com/torrent-guard/?"],a[href^="https://scurewall.co/"],div[id^="ads300_100-widget-"],div[id^="advads_"],a[href^="https://uncensored3d.com/"],a[href^="https://www.mrskin.com/tour"],a[href^="https://odnxe.lncredlbiedate.com/"],a[href^="//pubads.g.doubleclick.net/"],[id^="div-gpt-ad"],[href^="http://join.rodneymoore.com/"],a[href^="http://bongacams.com/track?"],div[data-ad-wrapper],a[href^="https://black77854.com/"],div[id^="ezoic-pub-ad-"],a[href^="https://go.trackitalltheway.com/"],[href^="http://misslinkvocation.com/"],a[href^="https://ndt5.net/"],a[href^="http://adserver.adreactor.com/"],[id^="ad_slider"],a[href^="https://engine.trackingdesks.com/"],a[href^="http://adtrack1.club/"],a[href^="https://explore.findanswersnow.net/"],a[href^="https://my-movie.club/"],aside[id^="adrotate_widgets-"],a[href^="https://vo2.qrlsx.com/"],a[href^="https://clickadilla.com/"],a[href^="https://chaturbate.jjgirls.com/?track="],a[href^="https://medleyads.com/"],a[href^="https://www.liquidfire.mobi/"],a[href^="https://www.nutaku.net/signup/landing/"],a[href^="https://www.mypornstarcams.com/landing/click/"],a[href^="https://reachtrgt.com/"],[href^="https://secure.bmtmicro.com/servlets/"],[href^="https://routewebtk.com/"],div[aria-label="Ads"],a[href^="https://go.strpjmp.com/"],[id^="section-ad-banner"],[href^="https://www.herbanomic.com/"] > img,div[data-dfp-id],div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"],a[href^="https://dooloust.net/"],a[href^="http://go.xtbaffiliates.com/"],a[href^="https://www.bebi.com"],a[href^="https://adultfriendfinder.com/go/page/landing"],AMP-AD,a[href^="https://americafirstpolls.com/"],a[href^="https://nutrientassumptionclaims.com/"],app-large-ad,a[href^="https://natour.naughtyamerica.com/track/"],[href^="https://noqreport.com/"] > img,[href^="http://www.pingperfect.com/aff.php"],a[href^="https://tracking.comfortclick.eu/"],a[href^="https://click.dtiserv2.com/"],a[href^="https://iactrivago.ampxdirect.com/"],a[href^="https://iqbroker.com/"][href*="?aff="],a[href^="https://track.interactivegf.com/"],a[href^="https://www.iyalc.com/"],a[href^="https://a2.adform.net/"],[href^="https://awbbjmp.com/"],a[href^="https://pcm.bannerator.com/"],a[href^="https://www.adultempire.com/"][href*="?partner_id="],a[href^="https://paid.outbrain.com/network/redir?"],a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source,a[data-redirect^="https://paid.outbrain.com/network/redir?"],a[href^="https://aff-ads.stickywilds.com/"],a[href^="https://serve.awmdelivery.com/"],a[href*="https://www.sweetdeals.com/"] img,a[href^="https://traffdaq.com/"],a[href^="https://clicks.pipaffiliates.com/"],a[href^="https://vlnk.me/"],div[data-spotim-slot],a[href^="http://googleads.g.doubleclick.net/pcs/click"],amp-ad-custom,a[href^="https://movie.download-file.org/"],a[href^="http://ad.doubleclick.net/"],[href^="https://mystore.com/"] > img,[data-css-class="dfp-inarticle"],a[href^="https://spygasm.com/track?"],a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img,[href^="https://detachedbates.com/"],a[href^="https://pb-track.com/"],a[href^="https://ausoafab.net/"],a[href^="https://ptapjmp.com/"],a[href^="https://go.goasrv.com/"],a[href^="https://t.aslnk.link/"],a[href^="https://bs.serving-sys.com"],[data-advadstrackid],a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="],a[href^="https://claring-loccelkin.com/"],a[href^="http://adf.ly/?id="],a[href^="https://go.gldrdr.com/"],a[href^="http://hotcandyland.com/partner/"],a[href^="https://bestdatinghere.life/"],a[href^="https://waisheph.com/"],a[href^="https://join.dreamsexworld.com/"],a[href^="https://googleads.g.doubleclick.net/pcs/click"],[href^="https://cpa.10kfreesilver.com/"],[href^="https://affiliate.fastcomet.com/"] > img,[href^="https://go.xlrdr.com"],a[href^="https://watchmygirlfriend.tv/"],a[href^="https://prf.hn/click/"][href*="/camref:"] > img,a[href^="https://go.zybrdr.com"],a[href^="https://datingbests.life/"],[href^="https://totlnkcl.com/"],a[href^="https://track.adform.net/"],a[href^="https://land.brazzersnetwork.com/landing/"],a[href^="https://join.virtualtaboo.com/track/"],a[href^="https://go.markets.com/visit/?bta="],guj-ad,a[data-url^="http://paid.outbrain.com/network/redir?"],a[href^="https://go.xxxijmp.com"],a[href^="http://tc.tradetracker.net/"] > img,[data-role="tile-ads-module"],a[href^="https://www.infowarsstore.com/"] > img,a[href^="https://bestcond1tions.com/"],div[data-content="Advertisement"],a[data-oburl^="https://paid.outbrain.com/network/redir?"],span[id^="ezoic-pub-ad-placeholder-"],a[href^="https://www.sweetdeals.com"],a[href^="https://fast-redirecting.com/"],a[href^="https://adserver.adreactor.com/"],a[href^="https://porntubemate.com/"],[href^="https://www.cloudways.com/en/?id"],a[href^="https://albionsoftwares.com/"],iframe[id^="google_ads_frame"],a[href^="https://tracking.gitads.io/"],a[href^="https://go.247traffic.com/"],a[href^="https://www.vfreecams.com/in/?track="],a[href^="https://go.hpyjmp.com"],a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"],a[href^="http://d2.zedo.com/"],a[href^="https://fertilitycommand.com/"],a[href^="https://go.xxxiijmp.com"],[href^="https://www.avantlink.com/click.php"] img,[id^="ad_sky"],hl-adsense,[href^="http://www.mypillow.com/"] > img,div[data-alias="300x250 Ad 1"],div[id^="div-ads-"],div[id*="ScriptRoot"],a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"],a[href^="https://ismlks.com/"],a[href^="http://www.FriendlyDuck.com/"],div[id^="ads300_250-widget-"],a[href^="https://bongacams2.com/track?"],a[href^="https://go.hpyrdr.com/"],a[href^="https://www.chngtrack.com/"],a[href^="https://cpartner.bdswiss.com/"],a[href^="https://track.healthtrader.com/"],[href^="https://kingered-banctours.com/"],[data-desktop-ad-id],a[href^="https://go.tmrjmp.com"],a[href^="https://aj1070.online/"],[href^="https://join.playboyplus.com/track/"],a[href^="https://click.a-ads.com/"],a[href^="https://www.healthrangerstore.com/"] > img,a[href^="https://go.ebrokerserve.com/"],[data-ez-name],a[href^="https://transfer.xe.com/signup/track/redirect?"],[href^="https://cipledecline.buzz/"],a[href^="https://moneynow.one/"],a[href^="http://wct.link/"],a[href^="https://uncensored.game/"],a[href^="https://www.financeads.net/tc.php?"],a[href^="https://www.passeura.com/"],a[href^="https://tm-offers.gamingadult.com/"],a[href^="https://dishphysics.com/"],[href^="https://www.mypatriotsupply.com/"] > img,a[href^="https://a.adtng.com/"],a[href*=".zlinkm.com/"],a[href^="https://go.xlvirdr.com"],div[id^="_vdo_ads_player_ai_"],[href^="https://antiagingbed.com/discount/"] > img,div[data-alias="300x250 Ad 2"],a[href^="https://ads.leovegas.com/redirect.aspx?"],a[href^="https://www.kingsoffetish.com/tour?partner_id="],article.ad,a-ad,div[data-mpu1],a[href^="https://track.effiliation.com/servlet/effi.click?"] > img,a[href^="https://a.bestcontentweb.top/"],a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="],amp-connatix-player,[onclick*="content.ad/"],[href^="https://shiftnetwork.infusionsoft.com/go/"] > img,a[href^="https://awptjmp.com/"],a[href^="https://static.fleshlight.com/images/banners/"],a[href^="https://pl.premium4kflix.website/"],[data-freestar-ad],a[href^="https://get2nesoft1.ru/"],div[class^="s-dfp-"],a[href^="https://trk.moviesflix4k.xyz/"],a[href^="http://www.mrskin.com/tour"],a[href^="https://track.bruceads.com/"],a[href^="https://go.goaserv.com/"],[id^="chp_ads_block"],[href^="https://r.kraken.com/"],a[href^="https://a.bestcontentfood.top/"],a[href*=".zlink9.com/"],[href="https://jdrucker.com/gold"] > img,div[data-role="sidebarAd"],a[href^="http://deloplen.com/"],app-advertisement,a[href^="https://agacelebir.com/"],a[href^="https://cams.imagetwist.com/in/?track="],gpt-ad,a[href^="https://s.zlink2.com/"],a[href^="https://syndication.optimizesrv.com/"],a[href^="http://affiliate.glbtracker.com/"],a[href^="https://meet-sexhere.com/"],[id^="ad-wrap-"],a[href^="https://axdsz.pro/"],div[id^="ad-div-"],a[href^="https://deliver.ptgncdn.com/"],div[id^="adngin-"],[href^="http://mypillow.com/"] > img,div[id^="yandex_ad"],div[id^="gpt_ad_"],a[href^="https://earandmarketing.com/"],a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source,a[href^="https://mob1ledev1ces.com/"],div[id^="adfox_"],a[href^="http://traffic.tc-clicks.com/"],div[id^="vuukle-ad-"],[href^="http://go.cm-trk2.com/"],div[id^="ad-inserter-"],a[href^="https://go.xtbaffiliates.com/"],[href^="http://join.shemalepornstar.com/"],a[href^="https://misspkl.com/"],[href="https://masstortfinancing.com"] img,DFP-AD,a[data-obtrack^="http://paid.outbrain.com/network/redir?"],div[id^="rc-widget-"],a[href^="https://www.brazzersnetwork.com/landing/"],a[href^="http://rs-stripe.wsj.com/stripe/redirect"],a[href^="https://www.googleadservices.com/pagead/aclk?"],a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"],div[data-adunit-path],a[href^="https://5hjdbfjfd5.monster/"],a[href^="https://traffic.bannerator.com/"],a[href^="https://go.xlviirdr.com"],a[href^="https://galaxyroms.net/?scr="],a[href^="https://click.linksynergy.com/fs-bin/"],a[href^="https://myusenet.xyz/"],div[data-native_ad],a[href^="https://geniusdexchange.com/"],iframe[src^="https://pagead2.googlesyndication.com/"],a[href^="http://betahit.click/"],a[href^="https://engine.phn.doublepimp.com/"],a[href^="https://www.oboom.com/ref/"],div[id^="ads250_250-widget-"],a[href^="//coarsewary.com/"],a[href^="https://meet-to-fuck.com/"],div[id^="div-gpt-"],div[id^="ad_position_"],a[href^="https://speedsupermarketdonut.com/"],a[href^="https://www.highperformancecpmgate.com/"],[href^="https://infinitytrk.com/"],[href^="https://zone.gotrackier.com/"],[class^="s2nPlayer"],a[data-oburl^="http://paid.outbrain.com/network/redir?"],a[href^="https://itubego.com/video-downloader/?affid="],a[href^="https://azpresearch.club/"],a[href^="https://ak.hetaruwg.com/"],a[href^="http://https://www.get-express-vpn.com/offer/"],a[href^="https://bluedelivery.pro/"],a[href^="https://burpee.xyz/"],a[href^="https://look.utndln.com/"],div[data-adname],div[id^="dfp-slot-"],a[href^="https://www.nudeidols.com/cams/"],a[href^="https://go.cmrdr.com/"],a[href^="https://porngames.adult/?SID="],a[href^="https://a.medfoodhome.com/"],a[href^="https://www.sugarinstant.com/?partner_id="],div[id^="ad_bnr_"],a[href^="https://awentw.com/"],a[href^="http://trk.globwo.online/"],a[href^="//go.xlviiirdr.com"],[href="https://ourgoldguy.com/contact/"] img,a[href*=".trust.zone"],div[id^="adrotate_widgets-"],a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"],a[data-url^="http://paid.outbrain.com/network/redir?"] + .author,div[data-adzone],a[href^="http://paid.outbrain.com/network/redir?"],display-ad-component,[href^="https://optimizedelite.com/"] > img,a[href^="https://www.get-express-vpn.com/offer/"],a[href^="https://go.xlirdr.com"],a[href^="https://www.mrskin.com/account/"],a[href^="https://track.themadtrcker.com/"],a[href^="https://tour.mrskin.com/"],a[href^="https://aaucwbe.com/"],a[href^="https://ad.zanox.com/ppc/"] > img,[href^="http://join.ts-dominopresley.com/"],[href^="http://homemoviestube.com/"],a[href^="https://refpazkjixes.top/"],a[href^="https://www.adskeeper.com"],a[href^="https://www.highperformancegate.com/"],[data-adblockkey],a[href^="https://juicyads.in/"],a[href^="https://gghf.mobi/"],a[href^="http://www.advcashpro.com/aff/"],[href^="https://clk.right-wing-health.com/"],a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img,a[href^="https://prf.hn/click/"][href*="/adref:"] > img,a[href^="https://adjoincomprise.com/"],a[href^="//voyeurhit.com/cs/"],a[href^="https://1free33style.com/"],a[href^="https://track.clickmoi.xyz/"],a[href^="https://trf.bannerator.com/"],[href^="https://glersakr.com/"],a[href^="https://partners.fxoro.com/click.php?"],[href^="https://click2cvs.com/"],[href^="https://www.hostg.xyz/"] > img,a[href^="https://www.bang.com/?aff="],[href^="https://www.brighteonstore.com/products/"] img,a[href^="https://s.zlink1.com/"],a[href^="https://tsartech.g2afse.com/"],a[href^="https://track.afcpatrk.com/"],a[href^="https://frameworkdeserve.com/"],a[href*=".flndmyiove.net/"],a[href^="https://landing.brazzersplus.com/"],a[href^="https://wantopticalfreelance.com/"],[href^="https://engine.gettopple.com/"],a[href^="https://affpa.top/"],iframe[src^="http://ad.yieldmanager.com/"],div[id*="MarketGid"],a[href^="https://www.oneclickroot.com/?tap_a="] > img,[data-ad-manager-id],a[href^="//go.eabids.com/"],a[href^="https://bongacams10.com/track?"],a[href^="https://cagothie.net/"],[class^="chp_ads_block"],a[href^="http://adultfriendfinder.com/go/page/landing"],app-ad,a[href^="https://go.alxbgo.com/"],a[href^="https://losingoldfry.com/"],a[href^="https://ad.kubiccomps.icu/"],a[href^="https://ad.doubleclick.net/"],[href^="https://rapidgator.net/article/premium/ref/"],a[href^="http://partners.etoro.com/"],div[class^="kiwi-ad-wrapper"],a[href^="https://webroutetrk.com/"],zeus-ad,a[href^="https://go.currency.com/"],a[href^="https://go.julrdr.com/"],a[href^="https://wittered-mainging.com/"],a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"],a[href^="https://creacdn.top-convert.com/"],a[href^="https://t.grtyi.com/"],a[href^="http://intent.bingads.com/"],a[href^="https://ovb.im/"],a[href^="https://financeads.net/tc.php?"],[href^="https://go.affiliatexe.com/"],a[href^="https://lead1.pl/"],[href^="https://www.mystore.com/"] > img,div[id^="ad_script_"],a[href^="https://takeallsoft.ru/"],div[data-ad-targeting],a[href^="//chrif8kdstie.com/"],a[href^="http://adultgames.xxx/"],a[href*=".engine.adglare.net/"],a[href^="http://click.payserve.com/"],a[href^="http://static.fleshlight.com/images/banners/"],[href^="https://www.mypillow.com/"] > img,a[href^="https://go.xxxjmp.com"],ark-top-ad,a[href^="http://m.hsrve.com/"],a[href^="https://queersodadults.com/"],a[href="//rufflycouncil.com/"],a[href^="https://aweptjmp.com/"],a[href^="https://trappist-1d.com/"],[href^="http://join.shemalesfromhell.com/"],[href^="https://ad.admitad.com/"],[data-name="adaptiveConstructorAd"],div[id^="dfp-ad-"],a[href^="https://track.ultravpn.com/"],[href^="https://mypillow.com/"] > img,a[href^="https://dialling-abutory.com/"],a[href^="https://www.sheetmusicplus.com/?aff_id="],a[href^="https://www.awin1.com/cread.php?awinaffid="],[href^="https://mypatriotsupply.com/"] > img,[id^="google_ads_iframe"],a[href^="https://delivery.porn.com/"],ADS-RIGHT,div[id^="crt-"][style],a[href^="https://intenseaffiliates.com/redirect/"],a[href^="https://lobimax.com/"],a[href^="https://syndication.dynsrvtbg.com/"],a[href^="https://affiliate.rusvpn.com/click.php?"],a[href^="https://go.cmtaffiliates.com/"],[href^="http://join.hardcoreshemalevideo.com/"],a[href^="https://go.dmzjmp.com"],a[href^="https://www.profitablecpmgate.com/"],div[id^="google_dfp_"],display-ads,div[id^="gtm-ad-"],a[href^="https://track.totalav.com/"],[href^="https://goldcometals.com/clk.trk"],a[href^="https://tragency-clesburg.icu/"],a[href^="https://maymooth-stopic.com/"],a[href^="https://adswick.com/"],[href^="https://stvkr.com/"],[href^="https://mylead.global/stl/"] > img,[data-d-ad-id],a[href^="https://go.nordvpn.net/aff"] > img,a[href^="https://incisivetrk.cvtr.io/click?"],a[href^="https://mk-cdn.net/"],a[href^="http://www.onwebcam.com/random?t_link="],a[href^="https://adnetwrk.com/"],[href^="https://shrugartisticelder.com"],a[href^="https://msecure117.com/"],div[id^="ad_rect_"],a[href^="https://topoffers.com/"][href*="/?pid="],a[href^="https://go.admjmp.com/"],[href^="https://go.4rabettraff.com/"],a[href^="https://offers.refchamp.com/"],a[data-redirect^="http://paid.outbrain.com/network/redir?"],[data-template-type="nativead"],a[href^="https://torrentsafeguard.com/?aid="],a[href^="https://avtub.click/assets/link.php"],amp-embed[type="taboola"],div[data-id-advertdfpconf],a[href^="https://adclick.g.doubleclick.net/"],a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"],a[href^="https://reinstandpointdumbest.com/"],a[href^="https://thaudray.com/"],a[href^="https://streamate.com/landing/click/"],a[href^="https://dianches-inchor.com/"],a[href^="https://www.jackery.com?aff="] > img,a[href^="https://www.arthrozene.com/"][href*="?tid="],a[href^="//syndication.dynsrvtbg.com/"],a[href^="https://track.wg-aff.com"],div[id^="gpt-ad-hor"],a[href^="http://tour.mrskin.com/"],a[href^="https://t.hrtyj.com/"],a[href^="https://www.adsexse.com/x/"],a[href^="https://leg.xyz/?track="],aside[id^="advads_ad_widget-"],[href^="https://join.girlsoutwest.com/"],a[href^="http://go.247traffic.com/"],a[href^="https://1startfiledownload1.com/"],a[href^="https://track.afftck.com/"],a[href^="https://playuhd.host/"],a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"],a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"],div[data-ad-placeholder],a[href^="//benoopto.com/"],a[href^="https://www.privateinternetaccess.com/"] > img,a[href^="https://ads.betfair.com/redirect.aspx?"],a[href^="http://enter.anabolic.com/track/"],a[href^="https://oackoubs.com/"],a[href^="//thaudray.com/"],div[data-adunit],[data-ad-width],div[id^="advads-"],[href^="https://turtlebids.irauctions.com/"] img,a[href^="http://www.coiwqe.site/"],[data-ad-cls],a[href^="https://mmwebhandler.aff-online.com/"],a[href^="http://cam4com.go2cloud.org/aff_c?"],a[href^="https://promo-bc.com/"],a[href^="https://fakelay.com/"],a[href^="https://chaturbate.com/in/?tour="],a[href^="https://go.xlivrdr.com"],a[href^="https://syndication.exoclick.com/"],div[class^="native-ad-"],[href^="https://trackfin.asia/"],a[href^="https://www.rabbits.webcam/?id="],a[href^="http://www.gfrevenge.com/landing/"],a[href^="https://k2s.cc/pr/"],[href^="http://join.michelle-austin.com/"],a[href^="https://iac.ampxdirect.com/"],a[href^="https://pongidsrunback.com/"],[href^="http://residenceseeingstanding.com/"],atf-ad-slot,a[href^="https://landing.brazzersnetwork.com/"],div[id^="sticky_ad_"],a[href^="//lambingsyddir.com/"],div[id^="taboola-stream-"],a[href^="http://secure.vivid.com/track/"],img[src^="https://images.purevpnaffiliates.com"],[data-m-ad-id],a[href^="//apptjmp.com/"],[href^="https://wct.link/"],div[id^="adspot-"],[href^="https://traffserve.com/"],div[data-native-ad],a[href^="https://ad.atdmt.com/"],a[href^="https://ads.ad4game.com/"],a[href^="https://thechleads.pro/"],[href^="https://www.restoro.com/"],a[href^="https://www.clicktraceclick.com/"],bottomadblock,a[href^="http://ads2.williamhill.com/redirect.aspx?"],a[href^="https://cpmspace.com/"],AD-SLOT,[href="https://www.masstortfinancing.com/"] > img,a[href^="https://tupitea.co/"],[href^="//ngeoziadiyc4hi2e.com/"],a[href^="https://meet-sex-here.com/"],a[href^="http://pityhostngco2.xyz/"],a[href^="https://deliver.tf2www.com/"],a[href^="https://t.hrtye.com/"],a[href^="https://taghaugh.com/"],[href^="http://www.fleshlightgirls.com/"],a[href^="https://landing1.brazzersnetwork.com"],a[href^="https://torguard.net/aff.php"] > img,amp-fx-flying-carpet,a[href^="https://cam4com.go2cloud.org/"],[class^="amp-ad-"],div[id^="ad-gpt-"],a[href^="https://join.sexworld3d.com/track/"],a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"],[href^="https://join3.bannedsextapes.com"],[href^="https://affect3dnetwork.com/track/"],a[href^="https://funkydaters.com/"],a[href^="https://as.sexad.net/"],[href^="https://goldforyourfuture.com/clk.trk"] img,a[href^="https://join.virtuallust3d.com/"],div[id^="ad-position-"],a[href^="https://www.camsoda.com/enter.php?id="],a[href^="https://billing.purevpn.com/aff.php"] > img,a[href^="https://go.skinstrip.net"][href*="?campaignId="],div[data-google-query-id],a[href^="https://m.do.co/c/"] > img,a[href^="https://a.montangop.top/"],a[href^="http://trk.mdrtrck.com/"],a[href^="https://affcpatrk.com/"],a[href^="https://lnkxt.bannerator.com/"],[href^="https://freecourseweb.com/"] > .sitefriend,a[href^="https://twinrdsyn.com/"],div[class^="gpt-ad-hor"],a[href^="https://as.conjectwatson.com/"],a[href^="http://pubads.g.doubleclick.net/"],a[href^="https://camfapr.com/landing/click/"],a[href^="http://affiliates.thrixxx.com/"],a[href^="https://gohere.pl/"],[class^="div-gpt-ad"],[href^="https://v.investologic.co.uk/"],a[href^="https://fleshlight.sjv.io/"],a[href^="http://allaptair.club/"],a[href^="https://a-ads.com/"],ad-desktop-sidebar,[href^="https://istlnkcl.com/"],[data-dynamic-ads],a[href^="https://ads-for-free.com/click.php?"],a[href^="https://t.adating.link/"],a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"],a[href^="http://www.onclickmega.com/jump/next.php?"],a[href^="https://loboclick.com"],[href^="https://ilovemyfreedoms.com/landing-"],a[href^="https://awecrptjmp.com/"],a[href^="http://go.fpmarkets.com/"],[onclick^="location.href='http://www.reimageplus.com"],[href^="http://join.shemale.xxx/"],a[href^="https://www.bet365.com/"][href*="affiliate="],a[href^="https://tracking.avapartner.com/"],[href^="https://track.fiverr.com/visit/"] > img,a[href*="http://MyPillow.com"] > img,a[href^="//agacelebir.com/"],ad-shield-ads,[href^="http://join.trannies-fuck.com/"],iframe[src^="http://www.adpeepshosted.com/"],a[href^="https://click.hoolig.app/"],[href^="http://globsads.com/"],[href^="https://www.reimageplus.com/"],a[href^="https://someperceptionparade.com/"],a[href^="https://trk.watchlivesports4k.club/"],a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="],div.fadeInDown[id$="____equal"][class$="____equal"],a[href^="http://bc.vc/?r="],a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="],[data-mobile-ad-id],a[href^="https://dfsdkkka.com/"],a[href^="https://clixtrac.com/"],div[id^="js-dfp-"],a[href^="https://bngpt.com/"],div[id^="ad-server-"],[href^="https://zstacklife.com/"] img,AD-TRIPLE-BOX,a[href^="http://bodelen.com/"],a[href^="https://tc.tradetracker.net/"] > img,div[class^="Adstyled__AdWrapper-"],[data-ad-module],a[href^="https://ttf.trmobc.com/"],[href^="http://trafficare.net/"],[href^="https://go.astutelinks.com/"],[name^="google_ads_iframe"],a[href^="https://go.xlviiirdr.com"],a[href^="https://tracking.trackcasino.co/"],a[href^="https://a.bestcontentoperation.top/"],[href^="https://www.targetingpartner.com/"],a[href^="https://go.etoro.com/"] > img,a[href^="https://chaturbate.com/in/?track="],[data-revive-zoneid],div[class^="Display_displayAd"],div[id^="zergnet-widget"],a[href^="https://refpa4903566.top/"],div[id^="lazyad-"],div[data-insertion],a[href^="https://adsrv4k.com/"],a[href^="https://banners.livepartners.com/"],div[data-contentexchange-widget],[href^="http://clicks.totemcash.com/"],a[href^="https://engine.blueistheneworanges.com/"],a[href^="https://trusted-click-host.com/"],a[href^="//wagerprocuratorantiterrorist.com/"],a[href^="https://see.kmisln.com/"],topadblock,a[href^="https://t.mobtya.com/"] { display: none !important }</style></body>
+</html>
