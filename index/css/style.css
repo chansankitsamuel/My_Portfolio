@@ -89,12 +89,24 @@ section {
 	transition: all 1s ease;
 }
 
-.img-container.animated:after {
-	left: 100%;
+
+@media screen and (max-width: 640) {
+	.img-container:after {
+		content: " ";
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0);
+		z-index: 2;
+		transition: all 1s ease;
+	}
 }
 
-.img-container.phone:after {
-	background: rgba(0, 0, 0, 0);
+.img-container.animated:after {
+	left: 100%;
 }
 
 ul {
@@ -1554,9 +1566,14 @@ header .mobile-menu {
 	margin-left: 15px;
 }
 
+
+.viewmore{
+	width: 500px;
+}
+
 .viewmore-button{
 	margin: 0 auto;
-	width:100%;
+	width: 100%;
 	height: 100%;
 	background-color: #222;
 	transition: background-color 0.3s ease;
@@ -1568,12 +1585,24 @@ header .mobile-menu {
 	font-weight: bold;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
-
 }
 
 .viewmore-button:hover {
 	background-color: #f72b1c;
-  }
+	}
+
+
+@media screen and (max-width: 640px) {
+	.viewmore{
+		width: 100%;
+		background-color: #000;
+	}
+	.viewmore-button{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
 
 /*** COPYRIGHT SECTION ***/
 

@@ -23,9 +23,9 @@
         _0x3d8837('.home .cta').addClass('animated fadeInUp')
       }, 2200)
     } else {
-      setTimeout(function () {
-        _0x3d8837('.my-photo-container').addClass('phone')
-      }, 100)
+      // setTimeout(function () {
+      //   _0x3d8837('.my-photo-container').addClass('phone')
+      // }, 100)
       setTimeout(function () {
         _0x3d8837('.header-inner').addClass('animated fadeInDown')
       }, 1100)
@@ -286,9 +286,9 @@
         _0x3d8837('.home .cta').addClass('animated fadeInUp')
       }, 2200)
     } else {
-      setTimeout(function () {
-        _0x3d8837('.my-photo-container').addClass('phone')
-      }, 100)
+      // setTimeout(function () {
+      //   _0x3d8837('.my-photo-container').addClass('phone')
+      // }, 100)
       setTimeout(function () {
         _0x3d8837('.header-inner').addClass('animated fadeInDown')
       }, 1100)
