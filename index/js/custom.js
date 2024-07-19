@@ -154,14 +154,14 @@
           },
         })
       } else {
-        WOW = new WOW({
+        var wow = new WOW({
           boxClass: 'wow',
           animateClass: 'animated',
           offset: 100,
           mobile: true,
           live: true,
         })
-        WOW.init()
+        wow.init()
       }
     }
   })
@@ -417,14 +417,14 @@
           },
         })
       } else {
-        WOW = new WOW({
+        var wow = new WOW({
           boxClass: 'wow',
           animateClass: 'animated',
           offset: 100,
           mobile: true,
           live: true,
         })
-        WOW.init()
+        wow.init()
       }
     }
   })
