@@ -222,7 +222,7 @@
  
  .swiper-virtual .swiper-slide
  {
-     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
      transform: translateZ(0)
  }
  
@@ -530,7 +530,7 @@
  {
      border-radius: 10px;
      position: relative;
-     -ms-touch-action: none;
+     touch-action: none;
      background: rgba(0, 0, 0, .1)
  }
  
