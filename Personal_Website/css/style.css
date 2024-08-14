@@ -1882,7 +1882,9 @@ a{
         margin-top:25px
     }
     .kioto_tm_home .abs_image{
-        max-width:220px
+        max-width:220px;
+        min-height:200px;
+        min-height:270px
     }
     .kioto_tm_biography .list span:first-child{
         min-width:auto
